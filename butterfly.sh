@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pip install butterfly
-ecat << __EOF__ > /etc/systemd/system/butterfly.service
+cat << __EOF__ > /etc/systemd/system/butterfly.service
 [Unit]
 Description=Butterfly Terminal Server
 
