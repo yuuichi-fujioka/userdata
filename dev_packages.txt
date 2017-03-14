@@ -4,3 +4,4 @@ packages:
   - tmux
   - python-dev
   - python-virtualenv
+  - python-pip
